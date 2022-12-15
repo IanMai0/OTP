@@ -7,7 +7,7 @@ import time
 # OTP 更新頻率為：每分0秒 / 每分30秒
 # 首先 程序會output 一次 當下金鑰
 # 接著程序會判斷秒數為 0 執行x, 秒數為30 則執行 y
-# 參考素材：https://pyauth.github.io/pyotp/
+# 參考連結：https://pyauth.github.io/pyotp/
 
 # return OTP
 def OTP(secretKey):
