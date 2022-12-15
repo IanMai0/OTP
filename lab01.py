@@ -16,7 +16,7 @@ def OTP(secretKey):
 
 
 if __name__ == '__main__':
-    secretKey = "input your OTP".replace(" ", "")  # input Aurora Wang 金鑰
+    secretKey = "input your OTP".replace(" ", "")  # input your 32位元 金鑰
     OTP(secretKey)
     while True:
         timeNow = time.localtime(time.time())  # 返回時間元組
